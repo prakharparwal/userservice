@@ -10,11 +10,17 @@ public class UserServiceController {
     @GetMapping("/")
     public ModelAndView getHome() {
 
-        System.out.println("Code reached here");
-
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("home");
 
         return modelAndView;
+    }
+
+    @GetMapping("/home")
+    public ModelAndView getHomePage() {
+
+        ModelAndView homepage = new ModelAndView();
+        homepage.setViewName("home");
+        return homepage;
     }
 }
