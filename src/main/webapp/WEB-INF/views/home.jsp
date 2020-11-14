@@ -6,7 +6,7 @@
         </title>
     </head>
     <body>
-        <div class = "text-align-center">
+        <div class = "text-align-center header">
             Master User Service
         </div>
     </body>
